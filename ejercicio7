@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string txt;
+    cout << "Ingrese texto: ";
+    getline(cin, txt);
+
+    char primero = txt[0];
+    char ultimo = txt[txt.length()-1];
+
+    cout << primero << " " << ultimo;
+    return 0;
+}
