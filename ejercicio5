@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string txt = "hola";
+
+    txt.append(" mundo");
+    cout << txt << endl;
+
+    txt.insert(4, "-");
+    cout << txt << endl;
+
+    txt.erase(4,1);
+    cout << txt << endl;
+
+    return 0;
+}
