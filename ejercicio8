@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string s1, s2;
+
+    cout << "Texto 1: ";
+    getline(cin, s1);
+    cout << "Texto 2: ";
+    getline(cin, s2);
+
+    cout << "substr: " << s1.substr(0,3) << endl;
+
+    string r = s1;
+    r.replace(1,2,"XX");
+    cout << "replace: " << r << endl;
+
+    cout << "size de texto 2: " << s2.size();
+    return 0;
+}
