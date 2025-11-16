@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string a, b;
+    cout << "Cadena 1: ";
+    getline(cin, a);
+    cout << "Cadena 2: ";
+    getline(cin, b);
+
+    if(a > b){
+        cout << a;
+    } else {
+        cout << b;
+    }
+
+    return 0;
+}
